@@ -95,14 +95,12 @@ function renderPage({
 app.get('/', (req, res) => {
   res.type('html').send(
     renderPage({
-      title: 'Outils Vibe Coding par PhilDEV',
+      title: 'Votre Assistant Loto en salle',
       description:
-        'Outils et aides au développement en Vibe Coding – SEO et environnement React / TypeScript.',
-      canonical: 'https://outils.phildev.fr/',
+        'Marquez et suivez tous vos cartons de loto en salle en un seul clic',
+      canonical: 'https://presentation.ezloto.app/',
       content: `
-        <h1>Outils, Tutos & Ressources Vibe Coding</h1>
-
-<img src="vibecoding.jpg" width="180" alt="Vibe Coding à Reims" class="image-gauche">
+        <h1>Transformez vos Lotos en salle !!</h1>
 
 <p class="intro">
 Ce site regroupe des <strong>ressources pratiques autour du Vibe Coding</strong>,
