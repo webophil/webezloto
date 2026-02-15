@@ -1,9 +1,242 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+.prompt-container {
+  position: relative;
+  margin: 1.5rem 0;
+}
+
+h3 {
+  color: #ebc934;
+}
+
+h2 {
+  color: #60a5fa;
+}
+
+.prompt-box {
+  max-height: 320px;
+  overflow-y: auto;
+  padding: 1rem;
+  background: #0f172a; /* bleu très foncé */
+  color: #e5e7eb;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  line-height: 1.4;
+}
+
+.copy-button {
+  position: absolute;
+  top: -2.2rem;
+  right: 0;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background: #2563eb;
+  color: #fff;
+}
+
+.copy-button:hover {
+  background: #1e40af;
+}
+
+/* Base sombre */
 body {
-    font-family: system-ui, sans-serif;
-    margin: 2rem;
-    line-height: 1.5;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.7;
+  background: #0e0f13;
+  color: #e5e7eb;
+}
+
+/* Liens */
+a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header fixé et dark */
+.site-header {
+  position: fixed;        /* fixe le header */
+  top: 0;                 /* en haut de la page */
+  left: 0;
+  width: 100%;            /* occupe toute la largeur */
+  background: #0b0c10;    /* conserve ton fond dark */
+  border-bottom: 1px solid #1f2937;
+  z-index: 1000;          /* toujours au-dessus du reste */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* optionnel : un peu de relief */
+}
+
+/* Container du header centré et flex */
+.header-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+/* Logo */
+.logo {
+  height: 100px;
+  width: auto;
+}
+/* Image incrustée à gauche */
+.image-gauche {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  max-width: 300px; /* ajustez selon vos besoins */
+}
+/* Image incrustée à droite */
+.image-droite {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  max-width: 300px; /* ajustez selon vos besoins */
+}
+
+/* Navigation */
+nav a {
+  margin-right: 1.2rem;
+  font-weight: 500;
+}
+
+/* Contenu centré */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+main.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  margin-top: 100px; /* ou la hauteur exacte de ton header */
+}
+
+.intro {
+  font-size: 1.05em;
+  margin-bottom: 1em;
+}
+
+.separator {
+  margin: 2.5em 0;
+  border: none;
+  border-top: 1px solid #444;
+  opacity: 0.4;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5em;
+  margin-top: 1.5em;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 14px;
+  padding: 1.2em 1.4em;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 1.15em;
+}
+
+.card p {
+  font-size: 0.95em;
+  opacity: 0.9;
+}
+
+.card ul {
+  padding-left: 1.2em;
+  margin-top: 0.6em;
+}
+
+.card ul li {
+  font-size: 0.9em;
+  margin-bottom: 0.3em;
+}
+
+.menu-cards .card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menu-cards .card-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+}
+
+.card-subtitle {
+  font-size: 0.95em;
+  font-style: italic;
+  opacity: 0.85;
+  margin-bottom: 0.6em;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;   /* ← clé ici */
+  gap: 0.8em;
+}
+
+.card-header h3 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.card-read {
+  font-size: 0.85em;
+  opacity: 0.7;
+  white-space: nowrap;
+  line-height: 1.2;
+}
+
+.card-link:hover .card-read {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.card-read::after {
+  content: " →";
+}
+
+
+
+/* Iframe responsive */
+iframe {
+  width: 100%;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  background: #000;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
   }
+
   nav a {
-    margin-right: 1rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
   }
-  
+}
