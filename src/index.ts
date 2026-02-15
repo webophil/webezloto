@@ -65,7 +65,7 @@ function renderPage({
     <link
       rel="icon"
       type="image/png"
-      href="https://storage.googleapis.com/gpt-engineer-file-uploads/asNNCVmjyJgOakDIePcVcN7tw2x2/uploads/1767451716548-iconePhD.png"
+      href="ezloto512.png"
     />
     <!-- Geo metadata for local SEO -->
     <meta name="geo.region" content="FR-GES" />
