@@ -13,14 +13,13 @@ body {
   line-height: 1.6;
 }
 
-/* Container principal */
+/* Sections */
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 3rem 1.5rem;
+  padding: 5rem 1.5rem 3rem 1.5rem;
 }
 
-/* Sections */
 section {
   margin-bottom: 4rem;
 }
@@ -45,9 +44,10 @@ p {
 ul {
   margin: 1rem 0 1.5rem 1.5rem;
 }
+
 .hero {
   text-align: center;
-  padding: 4rem 0;
+  padding: 2.5rem 0 3rem 0;
 }
 
 .hero-sub {
@@ -107,9 +107,14 @@ ul {
   display: block;
 }
 .site-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
   background: #000;
-  padding: 1rem 1.5rem;
-  border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+  z-index: 1000;
+  padding: 0.8rem 1.5rem;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.15);
 }
 
 .header-container {
