@@ -60,21 +60,37 @@ function renderPage({
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <title>${title}</title>
+
     ${description ? `<meta name="description" content="${description}"/>` : ''}
     ${canonical ? `<link rel="canonical" href="${canonical}"/>` : ''}
+
+    <!-- Favicon -->
     <link
       rel="icon"
       type="image/png"
-      href="ezloto512.png"
+      href="/ezloto512.png"
     />
-    <!-- Geo metadata for local SEO -->
-    <meta name="geo.region" content="FR-GES" />
-    <meta name="geo.placename" content="Reims" />
-    <meta name="geo.position" content="49.2583;4.0317" />
-    <meta name="author" content="PhilDEV"/>
+
+    <!-- Author -->
+    <meta name="author" content="EZLoto" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="${title}" />
+    ${description ? `<meta property="og:description" content="${description}" />` : ''}
+    <meta property="og:type" content="website" />
+    ${canonical ? `<meta property="og:url" content="${canonical}" />` : ''}
+    <meta property="og:image" content="https://presentation.ezloto.app/ezloto-og.png" />
+    <meta property="og:locale" content="fr_FR" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="${title}" />
+    ${description ? `<meta name="twitter:description" content="${description}" />` : ''}
+    <meta name="twitter:image" content="https://presentation.ezloto.app/ezloto-og.png" />
 
     <link rel="stylesheet" href="/style.css"/>
   </head>
+
   <body>
     ${header}
 
