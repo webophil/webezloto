@@ -254,7 +254,7 @@ app.get('/', (req, res) => {
         "applicationCategory": "GameApplication",
         "operatingSystem": "Android, iOS, Web",
         "url": "https://ezloto.app",
-        "description": "Application pour joueurs réguliers de loto en salle permettant de scanner et suivre plusieurs plaques en temps réel.",
+        "description": "Application pour joueurs réguliers de loto en salle permettant de scanner et suivre plusieurs plaques de cartons en temps réel.",
         "offers": {
           "@type": "Offer",
           "price": "1.99",
