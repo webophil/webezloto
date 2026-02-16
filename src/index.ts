@@ -120,7 +120,132 @@ app.get('/', (req, res) => {
       description:
         'Scannez vos plaques de loto, suivez 12, 24 ou 36 cartons en temps réel et ne ratez plus jamais un numéro.',
       canonical: 'https://presentation.ezloto.app/',
-      content: `... ton contenu HTML ici ...`,
+      content: `<section class="hero">
+
+  <h1>
+    <span class="brand-ez">EZ</span>
+    <span class="brand-loto">Loto</span><br/>
+    L’assistant intelligent des joueurs de loto en salle
+  </h1>
+
+  <p class="hero-sub">
+    Vous jouez plusieurs plaques ?
+    EZLoto surveille tous vos cartons en temps réel
+    et vous avertit quand il ne reste plus qu’un numéro.
+  </p>
+
+  <div class="cta-group">
+    <a href="https://ezloto.app" target="_blank" class="btn-primary">
+      Installer gratuitement
+    </a>
+    <a href="/mode-emploi" class="btn-secondary">
+      Voir le mode d’emploi
+    </a>
+  </div>
+
+</section>
+
+<hr class="separator"/>
+
+<section>
+
+  <h2>📸 Scannez vos plaques en quelques secondes</h2>
+
+  <p>
+    Prenez une photo de votre plaque de 12 cartons.
+    L’intelligence artificielle lit les numéros,
+    découpe chaque carton et les recrée parfaitement.
+  </p>
+
+  <p>
+    Donnez un nom à vos séries et suivez-les facilement
+    pendant tout le tirage.
+  </p>
+
+</section>
+
+<section>
+
+  <h2>🔢 Deux modes de saisie au choix</h2>
+
+  <ul>
+    <li>Clavier rapide intégré</li>
+    <li>Rack visuel des 90 numéros à cocher</li>
+    <li>Changement possible à tout moment</li>
+  </ul>
+
+  <p>
+    Tous vos cartons se mettent à jour instantanément,
+    même si vous jouez 24 ou 36 cartons.
+  </p>
+
+</section>
+
+<section>
+
+  <h2>🚨 Ne ratez plus jamais un numéro</h2>
+
+  <p>
+    EZLoto vous avertit automatiquement lorsqu’il reste
+    un seul numéro pour :
+  </p>
+
+  <ul>
+    <li>1 ligne</li>
+    <li>2 lignes</li>
+    <li>Carton plein</li>
+  </ul>
+
+  <p>
+    Le loto est une question de chance.
+    L’erreur humaine ne devrait pas en faire partie.
+  </p>
+
+</section>
+
+<section>
+
+  <h2>💛 Conçu pour les joueurs réguliers</h2>
+
+  <p>
+    Plus vous jouez de cartons,
+    plus EZLoto devient indispensable.
+  </p>
+
+  <p>
+    2 plaques ? Confort.
+    3 plaques ? Sécurité.
+    4 plaques ? Sérénité totale.
+  </p>
+
+</section>
+
+<section class="pricing">
+
+  <h2>💸 Simple et flexible</h2>
+
+  <ul>
+    <li>Quelques scans offerts à l’installation</li>
+    <li>Recharge par packs à petit prix</li>
+    <li>Aucun abonnement</li>
+    <li>Paiement sécurisé</li>
+  </ul>
+
+  <p>
+    Vous payez uniquement lorsque vous en avez besoin.
+  </p>
+
+</section>
+
+<section class="final-cta">
+
+  <h2>Prêt à jouer sans stress ?</h2>
+
+  <a href="https://ezloto.app" target="_blank" class="btn-primary large">
+    Installer EZLoto
+  </a>
+
+</section>`,
       jsonLd: {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
