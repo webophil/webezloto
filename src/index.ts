@@ -124,14 +124,12 @@ app.get('/', (req, res) => {
 
   <h1>
     <span class="brand-ez">EZ</span>
-    <span class="brand-loto">Loto</span>, 
-    L’assistant intelligent des joueurs de loto en salle
+    <span class="brand-loto">Loto</span> - assistant intelligent des joueurs de loto en salle
   </h1>
 
   <p class="hero-sub">
-    Vous jouez plusieurs plaques ?
-    EZLoto surveille tous vos cartons en temps réel
-    et vous avertit quand il ne reste plus qu’un numéro.
+    Vous jouez plusieurs plaques de 6 ou 12 cartons ? L'animateur va trop vite et le marquage devient difficile à suivre ? Vous bousculez un ou plusieurs cartons et les jetons sont déplacés ?
+    Votre solution : EZLoto gère tous vos cartons en temps réel en un seul clic, le marquage se fait tout seul, pour tous vos jeux. L'appli vous prévient dès qu'un carton "touche" à un numéro près, et vous annonce votre victoire avec visualisation du carton gagnant. vous n'avez plus qu'à faire vérifier le carton physique !
   </p>
 
   <div class="cta-group">
