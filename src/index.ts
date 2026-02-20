@@ -260,6 +260,8 @@ app.get('/', (req, res) => {
         }
       }
     })
+  })
+})
 // mentions légales
 app.get('/mentions-legales', (req, res) => {
   const auditContent = fs.readFileSync(
