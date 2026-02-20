@@ -288,9 +288,9 @@ app.get('/mode-emploi', (req, res) => {
 
   res.type('html').send(
     renderPage({
-      title: "EZLoto - Mode d'emploi",
+      title: 'EZLoto - Mode d\'emploi',
       description:
-        "Mode d'emploi détaillé de l'app EZLoto",
+        'Mode d\'emploi détaillé de l\'app EZLoto',
       canonical: 'https://presentation.ezloto.app/mode-emploi',
       content: auditContent
     })
