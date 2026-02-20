@@ -265,7 +265,7 @@ app.get('/', (req, res) => {
 // mentions légales
 app.get('/mentions-legales', (req, res) => {
   const auditContent = fs.readFileSync(
-    path.join(__dirname, '..', 'components', 'vibe-coding.htm'),
+    path.join(__dirname, '..', 'components', 'mentions-legales.htm'),
     'utf8'
   )
 
@@ -273,7 +273,7 @@ app.get('/mentions-legales', (req, res) => {
     renderPage({
       title: 'EZLoto - Mentions Légales',
       description:
-        'Mentions légales.',
+        'Mentions légales EZLoto',
       canonical: 'https://presentation.ezloto.app/mentions-legales',
       content: auditContent
     })
