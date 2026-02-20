@@ -22,7 +22,7 @@ body {
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 5rem 1.5rem 3rem 1.5rem;
+  padding: 4rem 1.5rem 2rem 1.5rem;
 }
 
 /* ==================================================
@@ -35,8 +35,7 @@ body {
   width: 100%;
   background: #000;
   z-index: 1000;
-  padding: 0.8rem 1.5rem;
-  border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+  padding: 0.6rem 1.5rem;
 }
 
 .header-container {
@@ -48,7 +47,7 @@ body {
 }
 
 .logo {
-  height: 90px;
+  height: 80px;
   width: auto;
   display: block;
 }
@@ -70,38 +69,36 @@ body {
 
 .hero {
   text-align: center;
-  padding: 1rem 0 3rem 0;
+  padding: 0.5rem 0 2rem 0;
 }
 
 .hero-sub {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   max-width: 700px;
-  margin: 1rem auto;
-  color: #444;
+  margin: 0.8rem auto;
+  color: #555;
 }
 
 /* ==================================================
-   TITRES EN CARTOUCHES
+   TITRES EN CARTOUCHES LIGHT
 ================================================== */
 
 h1,
 h2 {
   display: inline-block;
-  padding: 0.6rem 1.4rem;
+  padding: 0.5rem 1.2rem;
   border-radius: 999px;
-  background: #2f2f2f;
-  color: #FFD700;
-  border: 2px solid #000;
-  box-shadow: 3px 3px 0 #000;
-  margin-bottom: 1.5rem;
+  background: #a1a19f;
+  color: #000;
+  margin-bottom: 1.2rem;
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 /* ==================================================
@@ -109,7 +106,7 @@ h2 {
 ================================================== */
 
 section {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 p {
@@ -118,34 +115,31 @@ p {
 }
 
 ul {
-  margin: 1rem 0 1.5rem 1.5rem;
+  margin: 0.8rem 0 1.2rem 1.5rem;
 }
 
 /* ==================================================
-   CARTES MODERNES
+   CARTES MODERNES SOBRES
 ================================================== */
 
 .card {
   background: #f7f7f7;
   border-radius: 18px;
-  padding: 2rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  padding: 1.8rem;
+  margin-bottom: 1.8rem;
   border: 1px solid #eaeaea;
   transition: 0.2s ease;
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
 }
-
-/* Grille cartes */
 
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+  gap: 1.8rem;
 }
 
 /* ==================================================
@@ -153,14 +147,14 @@ ul {
 ================================================== */
 
 .cta-group {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .btn-primary,
 .btn-secondary {
   display: inline-block;
-  margin: 0.5rem;
-  padding: 14px 24px;
+  margin: 0.4rem;
+  padding: 12px 22px;
   border-radius: 999px;
   text-decoration: none;
   font-weight: bold;
@@ -170,18 +164,15 @@ ul {
 .btn-primary {
   background: #FFD700;
   color: #000;
-  border: 2px solid #000;
-  box-shadow: 3px 3px 0 #000;
 }
 
 .btn-primary:hover {
-  transform: translateY(-3px);
-  box-shadow: 6px 6px 0 #000;
+  transform: translateY(-2px);
 }
 
 .btn-secondary {
   background: #ffffff;
-  border: 2px solid #000;
+  border: 1px solid #000;
   color: #000;
 }
 
@@ -190,7 +181,7 @@ ul {
 }
 
 /* ==================================================
-   BRAND COLORS
+   BRAND
 ================================================== */
 
 .brand-ez {
@@ -207,11 +198,11 @@ ul {
 
 .site-footer {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
   background: #000;
   color: #fff;
-  font-size: 0.9rem;
-  margin-top: 4rem;
+  font-size: 0.85rem;
+  margin-top: 3rem;
 }
 
 /* ==================================================
@@ -225,7 +216,7 @@ ul {
   }
 
   .container {
-    padding: 4rem 1rem 2rem 1rem;
+    padding: 3.5rem 1rem 1.5rem 1rem;
   }
 
   h1 {
@@ -233,6 +224,6 @@ ul {
   }
 
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
