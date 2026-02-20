@@ -262,6 +262,23 @@ app.get('/', (req, res) => {
     })
   )
 })
+// mentions légales
+app.get('/mentions-legales', (req, res) => {
+  const auditContent = fs.readFileSync(
+    path.join(__dirname, '..', 'components', 'vibe-coding.htm'),
+    'utf8'
+  )
+
+  res.type('html').send(
+    renderPage({
+      title: 'EZLoto - Mentions Légales',
+      description:
+        'Mentions légales.',
+      canonical: 'https://presentation.ezloto.app/mentions-legales',
+      content: auditContent
+    })
+  )
+})
 
 /* -------------------------------------------------
    Export
