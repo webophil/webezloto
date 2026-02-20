@@ -279,6 +279,24 @@ app.get('/mentions-legales', (req, res) => {
     })
   )
 })
+// mode d'emploi
+app.get('/mode-emploi', (req, res) => {
+  const auditContent = fs.readFileSync(
+    path.join(__dirname, '..', 'components', 'mode-emploi.htm'),
+    'utf8'
+  )
+
+  res.type('html').send(
+    renderPage({
+      title: "EZLoto - Mode d'emploi",
+      description:
+        "Mode d'emploi détaillé de l'app EZLoto",
+      canonical: 'https://presentation.ezloto.app/mode-emploi',
+      content: auditContent
+    })
+  )
+})
+
 
 /* -------------------------------------------------
    Export
