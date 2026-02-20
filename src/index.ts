@@ -259,9 +259,9 @@ app.get('/', (req, res) => {
           "availability": "https://schema.org/InStock"
         }
       }
-    })
-  })
-})
+    }) // Fin de renderPage
+  )   // Fin du res.type('html').send(...)
+})    //
 // mentions légales
 app.get('/mentions-legales', (req, res) => {
   const auditContent = fs.readFileSync(
