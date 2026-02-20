@@ -128,7 +128,7 @@ app.get('/', (req, res) => {
   </h1>
 
   <p class="hero-sub">
-    <ul><li>Vous jouez plusieurs plaques de 6 ou 12 cartons ?</li><li>L'animateur va trop vite et le marquage devient difficile à suivre ?</li><li>Vous bousculez un ou plusieurs cartons et les jetons sont déplacés ?</li></ul>
+    Vous jouez plusieurs plaques de 6 ou 12 cartons ?<br />L'animateur va trop vite et le marquage devient difficile à suivre ?<br />Vous bousculez un ou plusieurs cartons et les jetons sont déplacés ?<br /><hr>
     Votre solution : EZLoto gère tous vos cartons en temps réel, le marquage se fait en un seul clic, pour tous vos jeux. L'appli vous prévient dès qu'un carton "touche" à un numéro près, et vous annonce votre victoire avec visualisation du carton gagnant. vous n'avez plus qu'à faire vérifier le carton physique !
   </p>
 
