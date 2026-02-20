@@ -1,120 +1,42 @@
-/* Reset minimal */
+/* ==================================================
+   RESET
+================================================== */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* Body général */
+/* ==================================================
+   BASE
+================================================== */
+
 body {
-  background: #111;
-  color: #f5f5f5;
+  background: #ffffff;
+  color: #1a1a1a;
   font-family: 'Orbitron', sans-serif;
   line-height: 1.6;
 }
 
-/* Sections */
 .container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 5rem 1.5rem 3rem 1.5rem;
 }
 
-section {
-  margin-bottom: 4rem;
-}
+/* ==================================================
+   HEADER
+================================================== */
 
-/* Titres */
-h1 {
-  font-size: 2.6rem;
-  margin-bottom: 1.5rem;
-}
-
-h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  color: #FFD700;
-}
-
-p {
-  margin-bottom: 1rem;
-}
-
-/* Listes */
-ul {
-  margin: 1rem 0 1.5rem 1.5rem;
-}
-
-.hero {
-  text-align: center;
-  padding: 0.5rem 0 3rem 0;
-}
-
-.hero-sub {
-  font-size: 1.2rem;
-  max-width: 700px;
-  margin: 0.5rem auto;
-}
-.cta-group {
-  margin-top: 2rem;
-}
-
-.btn-primary,
-.btn-secondary {
-  display: inline-block;
-  margin: 0.5rem;
-  padding: 14px 24px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.2s ease;
-}
-
-.btn-primary {
-  background: #FFD700;
-  color: #000;
-}
-
-.btn-primary:hover {
-  transform: translateY(-2px);
-}
-
-.btn-secondary {
-  border: 1px solid #FFD700;
-  color: #FFD700;
-}
-
-.btn-secondary:hover {
-  background: #FFD700;
-  color: #000;
-}
-.brand-ez {
-  color: #fff;
-}
-
-.brand-loto {
-  color: #FFD700;
-}
-.site-footer {
-  text-align: center;
-  padding: 2rem 1rem;
-  background: #000;
-  font-size: 0.9rem;
-}
-.logo {
-  height: 90px;
-  width: auto;
-  display: block;
-}
 .site-header {
   position: sticky;
   top: 0;
-  left: 0;
   width: 100%;
   background: #000;
   z-index: 1000;
   padding: 0.8rem 1.5rem;
-  border-bottom: 1px solid rgba(255, 215, 0, 0.15);
+  border-bottom: 1px solid rgba(255, 215, 0, 0.2);
 }
 
 .header-container {
@@ -123,6 +45,12 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.logo {
+  height: 90px;
+  width: auto;
+  display: block;
 }
 
 .site-header nav a {
@@ -135,9 +63,176 @@ ul {
 .site-header nav a:hover {
   color: #FFD700;
 }
+
+/* ==================================================
+   HERO
+================================================== */
+
+.hero {
+  text-align: center;
+  padding: 1rem 0 3rem 0;
+}
+
+.hero-sub {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 1rem auto;
+  color: #444;
+}
+
+/* ==================================================
+   TITRES EN CARTOUCHES
+================================================== */
+
+h1,
+h2 {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  background: #2f2f2f;
+  color: #FFD700;
+  border: 2px solid #000;
+  box-shadow: 3px 3px 0 #000;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+/* ==================================================
+   SECTIONS
+================================================== */
+
+section {
+  margin-bottom: 4rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  max-width: 750px;
+}
+
+ul {
+  margin: 1rem 0 1.5rem 1.5rem;
+}
+
+/* ==================================================
+   CARTES MODERNES
+================================================== */
+
+.card {
+  background: #f7f7f7;
+  border-radius: 18px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid #eaeaea;
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Grille cartes */
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* ==================================================
+   BOUTONS
+================================================== */
+
+.cta-group {
+  margin-top: 2rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 14px 24px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.btn-primary {
+  background: #FFD700;
+  color: #000;
+  border: 2px solid #000;
+  box-shadow: 3px 3px 0 #000;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 6px 6px 0 #000;
+}
+
+.btn-secondary {
+  background: #ffffff;
+  border: 2px solid #000;
+  color: #000;
+}
+
+.btn-secondary:hover {
+  background: #f2f2f2;
+}
+
+/* ==================================================
+   BRAND COLORS
+================================================== */
+
+.brand-ez {
+  color: #ffffff;
+}
+
+.brand-loto {
+  color: #FFD700;
+}
+
+/* ==================================================
+   FOOTER
+================================================== */
+
+.site-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #000;
+  color: #fff;
+  font-size: 0.9rem;
+  margin-top: 4rem;
+}
+
+/* ==================================================
+   RESPONSIVE
+================================================== */
+
 @media (max-width: 768px) {
+
   .logo {
     height: 50px;
   }
-}
 
+  .container {
+    padding: 4rem 1rem 2rem 1rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}
