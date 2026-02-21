@@ -123,8 +123,7 @@ app.get('/', (req, res) => {
       content: `<section class="hero">
 
   <h1>
-    <span class="brand-ez">EZ</span>
-    <span class="brand-loto">Loto</span> - <i>assistant intelligent pour joueurs de loto en salle</i>
+    <span class="brand-ez">EZ</span><span class="brand-loto">Loto</span> <i>Assistant intelligent pour joueurs de loto en salle</i>
   </h1>
 
   <p class="hero-sub">
