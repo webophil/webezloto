@@ -243,12 +243,14 @@ ul {
 
 .qr-block {
   text-align: center;
+  padding: 1rem;
 }
 
 .qr-block img {
-  width: 160px;
+  width: 80px;
   height: auto;
   border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
 
 .qr-caption {
