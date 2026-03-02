@@ -143,49 +143,39 @@ app.get('/', (req, res) => {
 
 </section>
 
-<section>
+<div class="cards-grid">
 
-  <h2>📸 Scannez vos plaques en quelques secondes</h2>
-
-  <div class="cards-grid">
-
-    <div class="card scan-card">
-      <div class="card-image">
-        <img src="/scan-carton.jpg" alt="Scan de plaques de loto avec EZLoto" />
-      </div>
-      <div class="card-text">
-        <h3>1️⃣ Photographiez vos plaques</h3>
-        <p>
-          Placez vos cartons dans le cadre pointillé jaune
-          et appuyez sur <strong>Capturer</strong>.
-        </p>
-        <p>
-          L’appareil photo de votre téléphone
-          photographie vos plaques en quelques secondes.
-        </p>
-      </div>
+  <div class="card scan-card">
+    <div class="card-image">
+      <img src="/scan-carton.jpg" alt="Scan de plaques de loto" />
     </div>
-
-    <div class="card scan-card">
-      <div class="card-image">
-        <img src="/resultat-scan.jpg" alt="Résultat du scan des cartons de loto" />
-      </div>
-      <div class="card-text">
-        <h3>2️⃣ Vos cartons sont détectés automatiquement</h3>
-        <p>
-          EZLoto analyse l’image et recrée chaque carton
-          avec ses numéros au bon endroit.
-        </p>
-        <p>
-          Vous pouvez contrôler, corriger si besoin,
-          puis enregistrer vos cartons.
-        </p>
-      </div>
+    <div class="card-text">
+      <h3>1️⃣ Scannez vos plaques</h3>
+      <p>Placez vos cartons dans le cadre jaune et capturez l’image.</p>
     </div>
-
   </div>
 
-</section>
+  <div class="card scan-card">
+    <div class="card-image">
+      <img src="/resultat-scan.jpg" alt="Contrôle des cartons détectés" />
+    </div>
+    <div class="card-text">
+      <h3>2️⃣ Contrôlez vos cartons</h3>
+      <p>Vérifiez les numéros détectés et corrigez si nécessaire.</p>
+    </div>
+  </div>
+
+  <div class="card scan-card">
+    <div class="card-image">
+      <img src="/ezloto-pretajouer.jpg" alt="Cartons prêts à jouer" />
+    </div>
+    <div class="card-text">
+      <h3>3️⃣ Prêt à jouer</h3>
+      <p>Vos cartons sont enregistrés. Vous pouvez commencer le tirage sereinement.</p>
+    </div>
+  </div>
+
+</div>
 
 <section>
 
