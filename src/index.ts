@@ -196,6 +196,63 @@ app.get('/', (req, res) => {
 
 <section>
 
+  <h2>🔢 Pendant le tirage</h2>
+
+  <div class="cards-grid">
+
+    <!-- Carte 4 -->
+    <div class="card scan-card">
+      <div class="card-image">
+        <img src="/ezloto-boulier.png" alt="Rack des 90 numéros EZLoto" />
+      </div>
+      <div class="card-text">
+        <h3>4️⃣ Deux modes de saisie</h3>
+        <p>
+          Entrez le numéro annoncé avec le clavier rapide
+          ou cochez-le directement sur le rack des 90 numéros.
+        </p>
+        <p>
+          Vous choisissez la méthode que vous préférez.
+        </p>
+      </div>
+    </div>
+
+    <!-- Carte 5 -->
+    <div class="card scan-card">
+      <div class="card-image">
+        <img src="/alerte-toucher.jpg" alt="Alerte à un numéro de gagner" />
+      </div>
+      <div class="card-text">
+        <h3>5️⃣ À un numéro de “toucher”</h3>
+        <p>
+          Dès qu’un carton est à un numéro près
+          pour une ligne, deux lignes ou un carton plein,
+          l’application vous prévient.
+        </p>
+      </div>
+    </div>
+
+    <!-- Carte 6 -->
+    <div class="card scan-card">
+      <div class="card-image">
+        <img src="/carton-gagnant.jpg" alt="Carton gagnant affiché" />
+      </div>
+      <div class="card-text">
+        <h3>6️⃣ C’est gagné</h3>
+        <p>
+          Le carton gagnant s’affiche clairement.
+          Il ne vous reste plus qu’à faire vérifier
+          votre carton physique.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section>
+
   <h2>🚨 Ne ratez plus jamais un numéro</h2>
 
   <p>
