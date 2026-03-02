@@ -131,7 +131,7 @@ app.get('/', (req, res) => {
 
     <!-- Colonne gauche : image salle -->
     <div class="hero-left">
-      <img src="/salle-loto.jpg" alt="Ambiance salle de loto" />
+      <img src="/salle-loto.png" alt="Ambiance salle de loto" />
     </div>
 
     <!-- Colonne centre : texte -->
