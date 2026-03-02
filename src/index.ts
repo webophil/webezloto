@@ -203,7 +203,7 @@ app.get('/', (req, res) => {
     <!-- Carte 5 -->
     <div class="card scan-card">
       <div class="card-image">
-        <img src="/alerte-toucher.jpg" alt="Alerte à un numéro de gagner" />
+        <img src="/alerte-toucher-ezloto.png" alt="Alerte à un numéro de gagner" />
       </div>
       <div class="card-text">
         <h3>5️⃣ À un numéro de “toucher”</h3>
@@ -218,7 +218,7 @@ app.get('/', (req, res) => {
     <!-- Carte 6 -->
     <div class="card scan-card">
       <div class="card-image">
-        <img src="/carton-gagnant.jpg" alt="Carton gagnant affiché" />
+        <img src="/carton-gagnant-ezloto.png" alt="Carton gagnant affiché" />
       </div>
       <div class="card-text">
         <h3>6️⃣ C’est gagné</h3>
