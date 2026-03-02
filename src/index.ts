@@ -132,14 +132,23 @@ app.get('/', (req, res) => {
     Votre Assistant intelligent <b>EZLoto</b> gère tous vos cartons en temps réel, le marquage se fait en un seul clic, pour tous vos jeux. L'appli vous prévient dès qu'un carton "touche" à un numéro près, et vous annonce votre victoire avec visualisation du carton gagnant.<br />Vous n'avez plus qu'à faire vérifier le carton physique et à profiter de votre lot !
   </p>
 
-  <div class="cta-group">
+ <div class="cta-install">
+
+  <div class="qr-block">
+    <img src="/qrcode-ezloto.png" alt="QR code pour installer EZLoto" />
+    <p class="qr-caption">
+      Scannez avec votre smartphone
+    </p>
+  </div>
+
+  <div class="install-link">
+    <p>Ou ouvrez directement depuis votre téléphone :</p>
     <a href="https://ezloto.app" target="_blank" class="btn-primary">
-      Installer gratuitement
-    </a>
-    <a href="/mode-emploi" class="btn-secondary">
-      Voir le mode d’emploi
+      Accéder à EZLoto
     </a>
   </div>
+
+</div>
 
 </section>
 
