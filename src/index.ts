@@ -179,23 +179,6 @@ app.get('/', (req, res) => {
 
 <section>
 
-  <h2>🔢 Deux modes de saisie au choix</h2>
-
-  <ul>
-    <li>Clavier rapide intégré</li>
-    <li>Rack visuel des 90 numéros à cocher</li>
-    <li>Changement possible à tout moment</li>
-  </ul>
-
-  <p>
-    Tous vos cartons se mettent à jour instantanément,
-    même si vous jouez 24 ou 36 cartons.
-  </p>
-
-</section>
-
-<section>
-
   <h2>🔢 Pendant le tirage</h2>
 
   <div class="cards-grid">
