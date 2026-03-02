@@ -167,7 +167,7 @@ app.get('/', (req, res) => {
 
   <div class="card scan-card">
     <div class="card-image">
-      <img src="/ezloto-pretajouer.jpg" alt="Cartons prêts à jouer" />
+      <img src="/ezloto-pretajouer.png" alt="Cartons prêts à jouer" />
     </div>
     <div class="card-text">
       <h3>3️⃣ Prêt à jouer</h3>
