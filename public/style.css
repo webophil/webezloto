@@ -200,6 +200,9 @@ ul {
 /* ==========================================
    Cartes Scan - Image maîtrisée
 ========================================== */
+.scan-card {
+  padding: 1.4rem;
+}
 
 .card-image {
   text-align: center;
