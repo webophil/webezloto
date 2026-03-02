@@ -147,16 +147,43 @@ app.get('/', (req, res) => {
 
   <h2>📸 Scannez vos plaques en quelques secondes</h2>
 
-  <p>
-    Prenez une photo de votre plaque de 12 cartons.
-    L’intelligence artificielle lit les numéros,
-    découpe chaque carton et les recrée parfaitement.
-  </p>
+  <div class="cards-grid">
 
-  <p>
-    Donnez un nom à vos séries et suivez-les facilement
-    pendant tout le tirage.
-  </p>
+    <div class="card scan-card">
+      <div class="card-image">
+        <img src="/scan-carton.jpg" alt="Scan de plaques de loto avec EZLoto" />
+      </div>
+      <div class="card-text">
+        <h3>1️⃣ Photographiez vos plaques</h3>
+        <p>
+          Placez vos cartons dans le cadre pointillé jaune
+          et appuyez sur <strong>Capturer</strong>.
+        </p>
+        <p>
+          L’appareil photo de votre téléphone
+          photographie vos plaques en quelques secondes.
+        </p>
+      </div>
+    </div>
+
+    <div class="card scan-card">
+      <div class="card-image">
+        <img src="/resultat-scan.jpg" alt="Résultat du scan des cartons de loto" />
+      </div>
+      <div class="card-text">
+        <h3>2️⃣ Vos cartons sont détectés automatiquement</h3>
+        <p>
+          EZLoto analyse l’image et recrée chaque carton
+          avec ses numéros au bon endroit.
+        </p>
+        <p>
+          Vous pouvez contrôler, corriger si besoin,
+          puis enregistrer vos cartons.
+        </p>
+      </div>
+    </div>
+
+  </div>
 
 </section>
 
