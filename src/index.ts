@@ -123,32 +123,60 @@ app.get('/', (req, res) => {
       content: `<section class="hero">
 
   <h1>
-    <span class="brand-ez">EZ</span><span class="brand-loto">Loto</span> <i>Assistant intelligent pour joueurs de loto en salle</i>
+    <span class="brand-ez">EZ</span><span class="brand-loto">Loto</span>
+    <i>Assistant intelligent pour joueurs de loto en salle</i>
   </h1>
 
-  <p class="hero-sub">
-    Vous jouez plusieurs plaques de 6 ou 12 cartons ?<br />L'animateur va trop vite et le marquage devient difficile à suivre ?<br />Vous bousculez un ou plusieurs cartons et vos jetons sont déplacés ?<br /><br />
-    🎱<b> Vous avez enfin trouvé la solution !! </b><br /><br />
-    Votre Assistant intelligent <b>EZLoto</b> gère tous vos cartons en temps réel, le marquage se fait en un seul clic, pour tous vos jeux. L'appli vous prévient dès qu'un carton "touche" à un numéro près, et vous annonce votre victoire avec visualisation du carton gagnant.<br />Vous n'avez plus qu'à faire vérifier le carton physique et à profiter de votre lot !
-  </p>
+  <div class="hero-grid">
 
- <div class="cta-install">
+    <!-- Colonne gauche : image salle -->
+    <div class="hero-left">
+      <img src="/salle-loto.jpg" alt="Ambiance salle de loto" />
+    </div>
 
-  <div class="qr-block">
-    <img src="/qrcode-ezloto.png" alt="QR code pour installer EZLoto" />
-    <p class="qr-caption">
-      Scannez avec votre smartphone
-    </p>
+    <!-- Colonne centre : texte -->
+    <div class="hero-center">
+      <p>
+        Vous jouez plusieurs plaques de 6 ou 12 cartons ?<br />
+        L'animateur va trop vite et le marquage devient difficile à suivre ?<br />
+        Vous bousculez un ou plusieurs cartons et vos jetons sont déplacés ?
+      </p>
+
+      <p class="hero-solution">
+        🎱 <strong>EZLoto vous aide à suivre tous vos cartons, simplement.</strong>
+      </p>
+
+      <p>
+        Entrez le numéro annoncé, tous vos cartons se mettent à jour.
+        L’application vous prévient lorsqu’un carton est à un numéro de
+        <strong>“toucher”</strong>, puis affiche clairement le carton gagnant.
+      </p>
+    </div>
+
+    <!-- Colonne droite : QR -->
+    <div class="hero-right">
+
+      <div class="qr-block">
+        <img src="/qrcode-ezloto.png" alt="QR code pour installer EZLoto" />
+        <p class="qr-caption">
+          Scannez avec votre smartphone
+        </p>
+      </div>
+
+      <div class="install-link">
+        <a href="https://ezloto.app" target="_blank" class="btn-primary">
+          Ouvrir EZLoto
+        </a>
+
+        <p class="install-notes">
+          Installation sans App Store<br />
+          Application web sécurisée
+        </p>
+      </div>
+
+    </div>
+
   </div>
-
-  <div class="install-link">
-    <p>Ou ouvrez directement depuis votre téléphone :</p>
-    <a href="https://ezloto.app" target="_blank" class="btn-primary">
-      Accéder à EZLoto
-    </a>
-  </div>
-
-</div>
 
 </section>
 
