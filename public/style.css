@@ -63,6 +63,62 @@ body {
   color: #FFD700;
 }
 
+/* ==========================================
+   HERO 3 colonnes
+========================================== */
+
+.hero {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.hero-grid {
+  margin-top: 2rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.hero-left img {
+  width: 100%;
+  border-radius: 18px;
+}
+
+.hero-center p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.hero-solution {
+  font-size: 1rem;
+}
+
+.hero-right {
+  text-align: center;
+}
+
+.install-notes {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Desktop layout */
+
+@media (min-width: 1000px) {
+  .hero-grid {
+    grid-template-columns: 1fr 1.2fr 0.9fr;
+    align-items: center;
+  }
+
+  .hero-left {
+    text-align: left;
+  }
+
+  .hero-right {
+    text-align: center;
+  }
+}
 /* ==================================================
    HERO
 ================================================== */
