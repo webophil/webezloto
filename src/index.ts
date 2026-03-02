@@ -179,8 +179,6 @@ app.get('/', (req, res) => {
 
 <section>
 
-  <h2>🔢 Pendant le tirage</h2>
-
   <div class="cards-grid">
 
     <!-- Carte 4 -->
@@ -191,7 +189,7 @@ app.get('/', (req, res) => {
       <div class="card-text">
         <h3>4️⃣ Deux modes de saisie</h3>
         <p>
-          Entrez le numéro annoncé avec le clavier rapide
+          Entrez le numéro annoncé avec le clavier rapide (voir en 3️⃣)
           ou cochez-le directement sur le rack des 90 numéros.
         </p>
         <p>
