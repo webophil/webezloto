@@ -66,6 +66,18 @@ body {
 /* ==========================================
    HERO STRUCTURE
 ========================================== */
+.hero h1 {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 1.5rem auto;
+}
+
+.hero-tagline {
+  display: block;
+  font-style: normal;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
 
 .hero {
   padding-top: 1rem;
