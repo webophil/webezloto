@@ -161,7 +161,7 @@ app.get('/', (req, res) => {
     </p>
 
     <p>
-      Un numéro pour gagner ?<br>👉 l’application vous alerte immédiatement.
+      Il manque un numéro pour gagner ?<br>👉 l’application vous alerte immédiatement.
     </p>
 
     <p>
@@ -248,11 +248,8 @@ app.get('/', (req, res) => {
       <div class="card-text">
         <h3>4️⃣ Deux modes de saisie</h3>
         <p>
-          Entrez le numéro annoncé avec le clavier rapide (voir en 3️⃣)
-          ou cochez-le directement sur le rack des 90 numéros.
-        </p>
-        <p>
-          Vous choisissez la méthode que vous préférez.
+          Entrez le numéro annoncé sur le clavier rapide (voir en 3️⃣)
+          ou cochez-le sur le rack des 90 numéros, au choix.
         </p>
       </div>
     </div>
@@ -262,7 +259,7 @@ app.get('/', (req, res) => {
         <img src="/alerte-toucher-ezloto.png" alt="Alerte à un numéro de gagner" />
       </div>
       <div class="card-text">
-        <h3>5️⃣ À un numéro de “toucher”</h3>
+        <h3>5️⃣ À un numéro de gagner</h3>
         <p>
           Dès qu’un carton est à un numéro près
           pour une ligne, deux lignes ou un carton plein,
@@ -291,28 +288,6 @@ app.get('/', (req, res) => {
 
 <section>
 
-  <h2>🚨 Ne ratez plus jamais un numéro</h2>
-
-  <p>
-    EZLoto vous avertit automatiquement lorsqu’il reste
-    un seul numéro pour :
-  </p>
-
-  <ul>
-    <li>1 ligne</li>
-    <li>2 lignes</li>
-    <li>Carton plein</li>
-  </ul>
-
-  <p>
-    Le loto est une question de chance.
-    L’erreur humaine ne devrait pas en faire partie.
-  </p>
-
-</section>
-
-<section>
-
   <h2>💛 Conçu pour les joueurs réguliers</h2>
 
   <p>
@@ -333,10 +308,11 @@ app.get('/', (req, res) => {
   <h2>💸 Simple et flexible</h2>
 
   <ul>
-    <li>Quelques scans offerts à l’installation</li>
+    <li>5 scans offerts à l’installation</li>
+    <li>5 scans offerts à l’inscription GRATUITE</li>
     <li>Recharge par packs à petit prix</li>
     <li>Aucun abonnement</li>
-    <li>Paiement sécurisé</li>
+    <li>Paiement sécurisé par Stripe</li>
   </ul>
 
   <p>
