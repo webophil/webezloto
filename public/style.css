@@ -79,7 +79,7 @@ body {
 }
 
 .hero-image img {
-  width: 100%;
+  width: 300px;
   border-radius: 18px;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 .hero-qr img {
-  width: 190px;   /* ↑ QR plus exploitable */
+  width: 150px;   /* ↑ QR plus exploitable */
   height: auto;
 }
 
