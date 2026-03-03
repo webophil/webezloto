@@ -124,10 +124,11 @@ app.get('/', (req, res) => {
 
   <!-- Ligne 1 : Titre -->
  <h1 class="hero-title">
-  <span class="brand-ez">EZ</span><span class="brand-loto">Loto</span>
+  <span class="hero-brand">
+    <span class="brand-ez">EZ</span><span class="brand-loto">Loto</span>
+  </span>
   <span class="hero-tagline">
-    Assistant intelligent<br>
-    pour joueurs de loto en salle
+    Assistant intelligent pour joueurs de loto en salle
   </span>
 </h1>
 
