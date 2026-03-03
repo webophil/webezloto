@@ -199,7 +199,7 @@ app.get('/', (req, res) => {
       <p>Application Web sécurisée</p>
     </div>
 
-  </div>
+  </div></div>
 
 </section>
 
