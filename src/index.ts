@@ -139,25 +139,43 @@ app.get('/', (req, res) => {
       <img src="/salle-loto.png" alt="Ambiance salle de loto" />
     </div>
 
-    <div class="hero-text">
-      <p>
-        Vous jouez plusieurs plaques de 6 ou 12 cartons ?<br>
-        L'animateur va parfois un peu vite ?<br>
-        Le marquage devient difficile à suivre ?
-      </p>
+   <div class="hero-text">
 
-      <p class="hero-highlight">
-        🎱 <strong>EZLoto vous aide à suivre tous vos cartons, simplement.</strong>
-      </p>
+  <p>
+    Vous jouez plusieurs plaques de 6 ou 12 cartons ?<br>
+    L’animateur va parfois un peu vite ?<br>
+    Le marquage devient difficile à suivre ?
+  </p>
 
-      <p>
-        Entrez le numéro annoncé, tous vos cartons se mettent à jour.
-        L’application vous prévient lorsqu’un carton est à un numéro de
-        <strong>“toucher”</strong>, puis affiche clairement le carton gagnant.
-      </p>
-    </div>
+  <p class="hero-highlight">
+    🎱 <strong>L'application qui suit vos cartons de loto à votre place.</strong>
+  </p>
 
-  </div>
+  <p>
+    Prenez vos plaques de cartons en photo.<br>
+    EZLoto les transforme en cartons individuels à l’écran.
+  </p>
+
+  <p>
+    Entrez les numéros annoncés pendant le tirage :<br>
+    tous vos cartons se mettent à jour automatiquement.
+  </p>
+
+  <p>
+    Il manque un numéro pour gagner ?<br>
+    L’application vous alerte immédiatement.
+  </p>
+
+  <p>
+    En cas de victoire, le carton gagnant s’affiche clairement.
+  </p>
+
+  <p class="hero-end">
+    Vous n’avez plus qu’à faire vérifier votre carton physique…<br>
+    et profiter du lot.
+  </p>
+
+</div> 
 
   <!-- Ligne 3 : QR + Bouton + Infos -->
   <div class="hero-actions">
