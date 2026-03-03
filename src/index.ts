@@ -122,27 +122,27 @@ app.get('/', (req, res) => {
       canonical: 'https://presentation.ezloto.app/',
       content: `<section class="hero">
 
+  <!-- Ligne 1 : Titre -->
   <h1>
     <span class="brand-ez">EZ</span><span class="brand-loto">Loto</span>
     <i>Assistant intelligent pour joueurs de loto en salle</i>
   </h1>
 
-  <div class="hero-grid">
+  <!-- Ligne 2 : Image + Texte -->
+  <div class="hero-main">
 
-    <!-- Colonne gauche : image salle -->
-    <div class="hero-left">
-      <img src="/salle-loto.png" alt="Ambiance salle de loto" />
+    <div class="hero-image">
+      <img src="/salle-loto.jpg" alt="Ambiance salle de loto" />
     </div>
 
-    <!-- Colonne centre : texte -->
-    <div class="hero-center">
+    <div class="hero-text">
       <p>
-        Vous jouez plusieurs plaques de 6 ou 12 cartons ?<br />
-        L'animateur va trop vite et le marquage devient difficile à suivre ?<br />
-        Vous bousculez un ou plusieurs cartons et vos jetons sont déplacés ?
+        Vous jouez plusieurs plaques de 6 ou 12 cartons ?<br>
+        L'animateur va parfois un peu vite ?<br>
+        Le marquage devient difficile à suivre ?
       </p>
 
-      <p class="hero-solution">
+      <p class="hero-highlight">
         🎱 <strong>EZLoto vous aide à suivre tous vos cartons, simplement.</strong>
       </p>
 
@@ -153,27 +153,27 @@ app.get('/', (req, res) => {
       </p>
     </div>
 
-    <!-- Colonne droite : QR -->
-    <div class="hero-right">
+  </div>
 
-      <div class="qr-block">
-        <img src="/qrcode-ezloto.png" alt="QR code pour installer EZLoto" />
-        <p class="qr-caption">
-          Scannez avec votre smartphone
-        </p>
-      </div>
+  <!-- Ligne 3 : QR + Bouton + Infos -->
+  <div class="hero-actions">
 
-      <div class="install-link">
-        <a href="https://ezloto.app" target="_blank" class="btn-primary">
-          Ouvrir EZLoto
-        </a>
+    <div class="hero-qr">
+      <img src="/qrcode-ezloto.png" alt="QR code EZLoto" />
+      <p>Scannez avec votre smartphone</p>
+    </div>
 
-        <p class="install-notes">
-          Installation sans App Store<br />
-          Application web sécurisée
-        </p>
-      </div>
+    <div class="hero-button">
+      <a href="https://ezloto.app" target="_blank" class="btn-primary">
+        Ouvrir EZLoto
+      </a>
+      <p>Depuis votre téléphone</p>
+    </div>
 
+    <div class="hero-info">
+      <p><strong>Application gratuite</strong></p>
+      <p>Installation sans App Store</p>
+      <p>Application Web sécurisée</p>
     </div>
 
   </div>
