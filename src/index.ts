@@ -153,20 +153,17 @@ app.get('/', (req, res) => {
     🎱 <strong>L'application qui suit vos cartons de loto à votre place.</strong>
   </p>
 
-  <div class="hero-steps">
+  <div class="hero-flow">
     <p>
-      Prenez vos plaques de cartons en photo.
-      EZLoto les transforme en cartons individuels à l’écran.
+      Prenez vos plaques en photo : EZLoto les transforme en cartons individuels à l’écran.
     </p>
 
     <p>
-      Entrez les numéros annoncés pendant le tirage :
-      tous vos cartons se mettent à jour automatiquement.
+      Entrez les numéros annoncés : tous vos cartons se mettent à jour automatiquement.
     </p>
 
     <p>
-      Il manque un numéro pour gagner ?
-      L’application vous alerte immédiatement.
+      À un numéro de “toucher”, l’application vous alerte immédiatement.
     </p>
 
     <p>
@@ -175,8 +172,7 @@ app.get('/', (req, res) => {
   </div>
 
   <p class="hero-end">
-    Vous n’avez plus qu’à faire vérifier votre carton physique…<br>
-    et profiter du lot.
+    Vous n’avez plus qu’à faire vérifier votre carton physique et profiter du lot.
   </p>
 
 </div> <!-- fin hero-text -->
