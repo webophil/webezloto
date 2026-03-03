@@ -163,7 +163,7 @@ app.get('/', (req, res) => {
   <div class="hero-actions">
 
     <div class="hero-qr">
-      <img src="/qrcode-ezloto.png" alt="QR code EZLoto" />
+      <img src="/qrcode-ezloto.png" widht="150px" alt="QR code EZLoto" />
       <p>Scannez avec votre smartphone</p>
     </div>
 
