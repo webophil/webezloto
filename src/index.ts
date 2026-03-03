@@ -94,7 +94,7 @@ ${JSON.stringify(jsonLd, null, 2)}
     <meta name="twitter:image" content="https://presentation.ezloto.app/ezloto-og.png" />
 
     ${structuredData}
-
+   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css"/>
   </head>
 
