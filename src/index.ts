@@ -143,7 +143,7 @@ app.get('/', (req, res) => {
 
   <div class="hero-problem">
     <p>
-      Vous jouez plusieurs plaques de 6 ou 12 cartons ? L’animateur va parfois un peu vite ?
+      Vous jouez plusieurs plaques de 6 ou 12 cartons ?<br>L’animateur va parfois un peu vite ?
     </p>
   </div>
 
@@ -153,19 +153,19 @@ app.get('/', (req, res) => {
 
   <div class="hero-flow">
     <p>
-      Prenez vos plaques en photo : EZLoto les transforme en cartons individuels à l’écran.
+      Prenez vos plaques en photo :<br>👉 EZLoto les transforme en cartons individuels à l’écran.
     </p>
 
     <p>
-      Entrez les numéros annoncés : tous vos cartons se mettent à jour automatiquement.
+      Entrez les numéros annoncés :<br>👉 tous vos cartons se mettent à jour automatiquement.
     </p>
 
     <p>
-      À un numéro de “toucher”, l’application vous alerte immédiatement.
+      Un numéro pour gagner ?<br>👉 l’application vous alerte immédiatement.
     </p>
 
     <p>
-      En cas de victoire, le carton gagnant s’affiche clairement.
+     <strong> En cas de victoire, le carton gagnant s’affiche clairement.</strong>
     </p>
   </div>
 
