@@ -143,14 +143,12 @@ app.get('/', (req, res) => {
 
   <div class="hero-problem">
     <p>
-      Vous jouez plusieurs plaques de 6 ou 12 cartons ?<br>
-      L’animateur va parfois un peu vite ?<br>
-      Le marquage devient difficile à suivre ?
+      Vous jouez plusieurs plaques de 6 ou 12 cartons ? L’animateur va parfois un peu vite ?
     </p>
   </div>
 
   <p class="hero-highlight">
-    🎱 <strong>L'application qui suit vos cartons de loto à votre place.</strong>
+    🎱 <strong>EZLoto suit vos cartons de loto à votre place.</strong>
   </p>
 
   <div class="hero-flow">
