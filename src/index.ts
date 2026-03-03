@@ -132,7 +132,7 @@ app.get('/', (req, res) => {
   <div class="hero-main">
 
     <div class="hero-image">
-      <img src="/salle-loto.jpg" alt="Ambiance salle de loto" />
+      <img src="/salle-loto.png" alt="Ambiance salle de loto" />
     </div>
 
     <div class="hero-text">
