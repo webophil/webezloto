@@ -141,41 +141,45 @@ app.get('/', (req, res) => {
 
     <div class="hero-text">
 
-      <p>
-        Vous jouez plusieurs plaques de 6 ou 12 cartons ?<br>
-        L’animateur va parfois un peu vite ?<br>
-        Le marquage devient difficile à suivre ?
-      </p>
+  <div class="hero-problem">
+    <p>
+      Vous jouez plusieurs plaques de 6 ou 12 cartons ?<br>
+      L’animateur va parfois un peu vite ?<br>
+      Le marquage devient difficile à suivre ?
+    </p>
+  </div>
 
-      <p class="hero-highlight">
-        🎱 <strong>L'application qui suit vos cartons de loto à votre place.</strong>
-      </p>
+  <p class="hero-highlight">
+    🎱 <strong>L'application qui suit vos cartons de loto à votre place.</strong>
+  </p>
 
-      <p>
-        Prenez vos plaques de cartons en photo.<br>
-        EZLoto les transforme en cartons individuels à l’écran.
-      </p>
+  <div class="hero-steps">
+    <p>
+      Prenez vos plaques de cartons en photo.
+      EZLoto les transforme en cartons individuels à l’écran.
+    </p>
 
-      <p>
-        Entrez les numéros annoncés pendant le tirage :<br>
-        tous vos cartons se mettent à jour automatiquement.
-      </p>
+    <p>
+      Entrez les numéros annoncés pendant le tirage :
+      tous vos cartons se mettent à jour automatiquement.
+    </p>
 
-      <p>
-        Il manque un numéro pour gagner ?<br>
-        L’application vous alerte immédiatement.
-      </p>
+    <p>
+      Il manque un numéro pour gagner ?
+      L’application vous alerte immédiatement.
+    </p>
 
-      <p>
-        En cas de victoire, le carton gagnant s’affiche clairement.
-      </p>
+    <p>
+      En cas de victoire, le carton gagnant s’affiche clairement.
+    </p>
+  </div>
 
-      <p class="hero-end">
-        Vous n’avez plus qu’à faire vérifier votre carton physique…<br>
-        et profiter du lot.
-      </p>
+  <p class="hero-end">
+    Vous n’avez plus qu’à faire vérifier votre carton physique…<br>
+    et profiter du lot.
+  </p>
 
-    </div> <!-- fin hero-text -->
+</div> <!-- fin hero-text -->
 
   </div> <!-- fin hero-main -->
 
