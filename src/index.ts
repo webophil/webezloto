@@ -123,14 +123,14 @@ app.get('/', (req, res) => {
       content: `<section class="hero">
 
   <!-- Ligne 1 : Titre -->
- <h1 class="hero-title">
-  <span class="hero-brand">
-    <span class="brand-ez">EZ</span><span class="brand-loto">Loto</span>
-  </span>
-  <span class="hero-tagline">
-    Assistant intelligent pour joueurs de loto en salle
-  </span>
-</h1>
+  <h1 class="hero-title">
+    <span class="hero-brand">
+      <span class="brand-ez">EZ</span><span class="brand-loto">Loto</span>
+    </span>
+    <span class="hero-tagline">
+      Assistant intelligent pour joueurs de loto en salle
+    </span>
+  </h1>
 
   <!-- Ligne 2 : Image + Texte -->
   <div class="hero-main">
@@ -139,43 +139,45 @@ app.get('/', (req, res) => {
       <img src="/salle-loto.png" alt="Ambiance salle de loto" />
     </div>
 
-   <div class="hero-text">
+    <div class="hero-text">
 
-  <p>
-    Vous jouez plusieurs plaques de 6 ou 12 cartons ?<br>
-    L’animateur va parfois un peu vite ?<br>
-    Le marquage devient difficile à suivre ?
-  </p>
+      <p>
+        Vous jouez plusieurs plaques de 6 ou 12 cartons ?<br>
+        L’animateur va parfois un peu vite ?<br>
+        Le marquage devient difficile à suivre ?
+      </p>
 
-  <p class="hero-highlight">
-    🎱 <strong>L'application qui suit vos cartons de loto à votre place.</strong>
-  </p>
+      <p class="hero-highlight">
+        🎱 <strong>L'application qui suit vos cartons de loto à votre place.</strong>
+      </p>
 
-  <p>
-    Prenez vos plaques de cartons en photo.<br>
-    EZLoto les transforme en cartons individuels à l’écran.
-  </p>
+      <p>
+        Prenez vos plaques de cartons en photo.<br>
+        EZLoto les transforme en cartons individuels à l’écran.
+      </p>
 
-  <p>
-    Entrez les numéros annoncés pendant le tirage :<br>
-    tous vos cartons se mettent à jour automatiquement.
-  </p>
+      <p>
+        Entrez les numéros annoncés pendant le tirage :<br>
+        tous vos cartons se mettent à jour automatiquement.
+      </p>
 
-  <p>
-    Il manque un numéro pour gagner ?<br>
-    L’application vous alerte immédiatement.
-  </p>
+      <p>
+        Il manque un numéro pour gagner ?<br>
+        L’application vous alerte immédiatement.
+      </p>
 
-  <p>
-    En cas de victoire, le carton gagnant s’affiche clairement.
-  </p>
+      <p>
+        En cas de victoire, le carton gagnant s’affiche clairement.
+      </p>
 
-  <p class="hero-end">
-    Vous n’avez plus qu’à faire vérifier votre carton physique…<br>
-    et profiter du lot.
-  </p>
+      <p class="hero-end">
+        Vous n’avez plus qu’à faire vérifier votre carton physique…<br>
+        et profiter du lot.
+      </p>
 
-</div> 
+    </div> <!-- fin hero-text -->
+
+  </div> <!-- fin hero-main -->
 
   <!-- Ligne 3 : QR + Bouton + Infos -->
   <div class="hero-actions">
@@ -186,7 +188,7 @@ app.get('/', (req, res) => {
     </div>
 
     <div class="hero-button">
-    <p>Ou</p>
+      <p>Ou</p>
       <a href="https://ezloto.app" target="_blank" class="btn-primary">
         Ouvrir EZLoto
       </a>
@@ -199,7 +201,7 @@ app.get('/', (req, res) => {
       <p>Application Web sécurisée</p>
     </div>
 
-  </div></div>
+  </div> <!-- fin hero-actions -->
 
 </section>
 
@@ -241,7 +243,6 @@ app.get('/', (req, res) => {
 
   <div class="cards-grid">
 
-    <!-- Carte 4 -->
     <div class="card scan-card">
       <div class="card-image">
         <img src="/ezloto-boulier.png" alt="Rack des 90 numéros EZLoto" />
@@ -258,7 +259,6 @@ app.get('/', (req, res) => {
       </div>
     </div>
 
-    <!-- Carte 5 -->
     <div class="card scan-card">
       <div class="card-image">
         <img src="/alerte-toucher-ezloto.png" alt="Alerte à un numéro de gagner" />
@@ -273,7 +273,6 @@ app.get('/', (req, res) => {
       </div>
     </div>
 
-    <!-- Carte 6 -->
     <div class="card scan-card">
       <div class="card-image">
         <img src="/carton-gagnant-ezloto.png" alt="Carton gagnant affiché" />
