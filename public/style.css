@@ -141,25 +141,23 @@ body {
 
 .hero-text {
   font-family: Arial, sans-serif; /* ou system-ui */
-  max-width: 620px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 .hero-text p {
   font-size: 1.05rem;
-  line-height: 1.75;
-  margin-bottom: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 0.9rem;
 }
-
 .hero-problem {
   text-align: center;
   margin-bottom: 1.8rem;
 }
 
 .hero-highlight {
-  text-align: center;
   font-size: 1.25rem;
-  margin: 2rem 0;
+  margin: 1.4rem 0;
 }
 
 .hero-steps {
@@ -167,9 +165,19 @@ body {
 }
 
 .hero-end {
-  text-align: center;
+  margin-top: 1.4rem;
+}
+
+.hero-problem {
+  margin-bottom: 1.2rem;
+}
+
+.hero-flow p {
+  margin-bottom: 0.8rem;
+}
+
+.hero-end {
   font-weight: 600;
-  margin-top: 2rem;
 }
 
 /* ----- Actions QR / Bouton / Infos ----- */
