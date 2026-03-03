@@ -73,19 +73,47 @@ body {
 
 /* ----- Titre ----- */
 
+/* ===== HERO TITLE FINAL PROPRE ===== */
+
 .hero-title {
-  text-align: center;
-  font-size: 2.4rem;
-  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.9rem;
   margin-bottom: 2rem;
+  flex-wrap: wrap; /* permet responsive propre */
 }
 
-.hero-title .hero-tagline {
-  display: block;
+.hero-brand {
+  padding: 0.35rem 1.2rem;
+  border-radius: 999px;
+  background: #a1a19f;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.hero-tagline {
   font-size: 1rem;
   font-weight: normal;
-  margin-top: 0.6rem;
-  line-height: 1.4;
+}
+
+/* Mobile : passage en colonne propre */
+
+@media (max-width: 768px) {
+  .hero-title {
+    flex-direction: column;
+    gap: 0.6rem;
+    font-size: 1.6rem;
+  }
+
+  .hero-brand {
+    margin-bottom: 0.3rem;
+  }
+
+  .hero-tagline {
+    text-align: center;
+  }
 }
 
 /* Branding couleurs */
