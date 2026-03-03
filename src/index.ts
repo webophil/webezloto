@@ -168,6 +168,7 @@ app.get('/', (req, res) => {
     </div>
 
     <div class="hero-button">
+    <p>Ou</p>
       <a href="https://ezloto.app" target="_blank" class="btn-primary">
         Ouvrir EZLoto
       </a>
