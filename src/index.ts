@@ -123,9 +123,12 @@ app.get('/', (req, res) => {
       content: `<section class="hero">
 
   <!-- Ligne 1 : Titre -->
- <h1>
+ <h1 class="hero-title">
   <span class="brand-ez">EZ</span><span class="brand-loto">Loto</span>
-  <i>Assistant intelligent pour joueurs de loto en salle</i>
+  <span class="hero-tagline">
+    Assistant intelligent<br>
+    pour joueurs de loto en salle
+  </span>
 </h1>
 
   <!-- Ligne 2 : Image + Texte -->
