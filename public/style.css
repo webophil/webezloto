@@ -515,3 +515,16 @@ ul {
     grid-template-columns: 1fr 1fr;
   }
 }
+.mode-nav-card a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: 600;
+  font-family: Arial, Verdana, sans-serif;
+  display: inline-block;
+  transition: transform 0.18s ease, color 0.18s ease;
+}
+
+.mode-nav-card a:hover {
+  color: #FFD700;
+  transform: translateX(6px);
+}
