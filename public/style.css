@@ -528,3 +528,25 @@ ul {
   color: #FFD700;
   transform: translateX(6px);
 }
+/* ==================================================
+   H2 MODE EMPLOI - STYLE ETAPE
+================================================== */
+
+.mode-emploi h2 {
+  position: relative;
+  padding-left: 18px;
+}
+
+.mode-emploi h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 6px;
+  height: 22px;
+  background: #FFD700;
+  border-radius: 4px;
+}
+.mode-emploi h2:hover::before {
+  height: 26px;
+}
