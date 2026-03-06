@@ -414,6 +414,16 @@ ul {
 /* ===============================
    SOMMAIRE MODE EMPLOI
 =============================== */
+/* ==================================================
+   MODE EMPLOI - TEXTE LISIBILITÉ
+================================================== */
+
+.mode-emploi p,
+.mode-emploi li {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+}
 
 .mode-nav-grid {
   display: grid;
