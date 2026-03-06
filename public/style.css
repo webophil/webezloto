@@ -465,3 +465,53 @@ ul {
   }
 
 }
+/* ==================================================
+   SOMMAIRE MODE EMPLOI
+================================================== */
+
+.mode-nav-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.mode-nav-card {
+  background: #f7f7f7;
+  border-radius: 16px;
+  padding: 1.5rem 1.8rem;
+  border: 1px solid #eaeaea;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mode-nav-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+}
+
+.mode-nav-card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mode-nav-card li {
+  margin-bottom: 0.6rem;
+}
+
+.mode-nav-card a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: 600;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+.mode-nav-card a:hover {
+  color: #FFD700;
+}
+
+@media (min-width: 800px) {
+  .mode-nav-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
