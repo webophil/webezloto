@@ -411,3 +411,47 @@ ul {
   scroll-margin-top: 110px;
   margin-bottom: 3rem;
 }
+/* ===============================
+   SOMMAIRE MODE EMPLOI
+=============================== */
+
+.mode-nav-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.mode-nav-card {
+  background: #f7f7f7;
+  border-radius: 18px;
+  padding: 1.4rem;
+  border: 1px solid #eaeaea;
+}
+
+.mode-nav-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.mode-nav-card li {
+  margin-bottom: 0.5rem;
+}
+
+.mode-nav-card a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.mode-nav-card a:hover {
+  text-decoration: underline;
+}
+
+/* Desktop */
+
+@media (min-width: 700px) {
+
+  .mode-nav-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
