@@ -528,3 +528,24 @@ ul {
   color: #FFD700;
   transform: translateX(6px);
 }
+
+/* retour sommaire */
+
+.retour-sommaire {
+  text-align: center;
+  margin-top: 1.8rem;
+}
+
+.retour-sommaire a {
+  text-decoration: none;
+  font-family: Arial, Verdana, sans-serif;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: transform 0.18s ease, color 0.18s ease;
+  display: inline-block;
+}
+
+.retour-sommaire a:hover {
+  color: #FFD700;
+  transform: translateY(-2px);
+}
