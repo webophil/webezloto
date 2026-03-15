@@ -140,7 +140,15 @@ app.get('/', (req, res) => {
     </div>
 
     <div class="hero-text">
-
+<!-- Ligne 1 : Titre -->
+  <h1 class="hero-title">
+    <span class="hero-brand">
+      <span class="brand-ez">EZ</span><span class="brand-loto">Loto</span>
+    </span>
+    <span class="hero-tagline">
+      Assistant intelligent pour joueurs de loto en salle
+    </span>
+  </h1>
   <div class="hero-problem">
     <p>
       Vous jouez plusieurs plaques de 6 ou 12 cartons ?<br>L’animateur va parfois un peu vite ?
