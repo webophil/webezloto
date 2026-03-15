@@ -122,16 +122,6 @@ app.get('/', (req, res) => {
       canonical: 'https://presentation.ezloto.app/',
       content: `<section class="hero">
 
-  <!-- Ligne 1 : Titre -->
-  <h1 class="hero-title">
-    <span class="hero-brand">
-      <span class="brand-ez">EZ</span><span class="brand-loto">Loto</span>
-    </span>
-    <span class="hero-tagline">
-      Assistant intelligent pour joueurs de loto en salle
-    </span>
-  </h1>
-
   <!-- Ligne 2 : Image + Texte -->
   <div class="hero-main">
 
