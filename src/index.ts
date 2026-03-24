@@ -118,7 +118,7 @@ app.get('/', (req, res) => {
     renderPage({
       title: 'EZLoto – Assistant intelligent pour joueurs de loto en salle',
       description:
-        'Scannez vos plaques de loto, suivez 12, 24 ou 36 cartons en temps réel et ne ratez plus jamais un numéro.',
+        'Application gratuite loto en salle : scannez vos plaques, suivez tous vos cartons en temps réel et ne ratez plus jamais un numéro.',
       canonical: 'https://presentation.ezloto.app/',
       content: `<section class="hero">
 
@@ -192,7 +192,7 @@ app.get('/', (req, res) => {
     </div>
 
     <div class="hero-info">
-      <p><strong>Application gratuite</strong></p>
+      <p><strong>Application loto gratuite</strong></p>
       <p>Installation sans App Store</p>
       <p>Application Web sécurisée</p>
     </div>
